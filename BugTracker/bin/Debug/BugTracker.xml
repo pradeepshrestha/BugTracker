@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BugTracker</name>
+    </assembly>
+    <members>
+        <member name="T:BugTracker.AdminPanel">
+            <summary>
+            inheriting the property of a form by AdminPanel class
+            </summary>
+        </member>
+        <member name="F:BugTracker.AdminPanel.usidpassth">
+            <summary>
+            declaring string variable to pass the value
+            Declaring Public static String
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.#ctor">
+            <summary>
+            initializing component
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.AdminPanel_Load(System.Object,System.EventArgs)">
+            <summary>
+            Loading the data grid on the AdminPanel_Load
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.btn_ApEdit_Click(System.Object,System.EventArgs)">
+            <summary>
+            passing valuethrough objects created for page opening
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTracker.AdminPanel.btn_ApLogout_Click(System.Object,System.EventArgs)">
+            <summary>
+            logging out the user via btn_ApLogout
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.btn_ApExit_Click(System.Object,System.EventArgs)">
+            <summary>
+            closing the form via btn_ApExit
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            displaying groupBox via button1
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.btn_ApBGLView_Click(System.Object,System.EventArgs)">
+            <summary>
+            displaying the value for gridview by creating object
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.btn_APBGSView_Click(System.Object,System.EventArgs)">
+            <summary>
+            displaying the value for gridview by creating object
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.btn_APchangepassDone_Click(System.Object,System.EventArgs)">
+            <summary>
+            creating object for changing the password
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTracker.AdminPanel.lbl_APUserRequestList_Click(System.Object,System.EventArgs)">
+            <summary>
+            creating object of another page for opening
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTracker.AdminPanel.btn_connectgitlab_Click(System.Object,System.EventArgs)">
+            <summary>
+            connecting to gitlab via btn_connectgitlab_click
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:BugTracker.AdminPanel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.AdminPanel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.AdminPanel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BugTracker.BugDetailView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.BugDetailView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.BugDetailView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BugTracker.Login">
+            <summary>
+            inheriting the property of a form by login class
+            </summary>
+        </member>
+        <member name="F:BugTracker.Login.usridpass">
+            <summary>
+            declaring variable to pass the value to the trackerpannel and programmer panel
+            Declaring Public static String
+            </summary>
+        </member>
+        <member name="F:BugTracker.Login.usrnamepass">
+            <summary>
+            declaring variable to pass the value to the trackerpannel and programmer panel
+            Declaring Public static String
+            </summary>
+        </member>
+        <member name="F:BugTracker.Login.usrtypepass">
+            <summary>
+            declaring variable to pass the value to the trackerpannel and programmer panel
+            Declaring Public static String
+            </summary>
+        </member>
+        <member name="M:BugTracker.Login.#ctor">
+            <summary>
+            initializing component
+            </summary>
+        </member>
+        <member name="M:BugTracker.Login.btnLogin_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            database calling
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTracker.Login.lblNewAccount_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            calling nest pannel by making object
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:BugTracker.Login.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.Login.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.Login.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BugTracker.NewUser">
+            <summary>
+            inheriting the property of a form by NewUser class
+            </summary>
+        </member>
+        <member name="M:BugTracker.NewUser.#ctor">
+            <summary>
+            initializing component
+            </summary>
+        </member>
+        <member name="M:BugTracker.NewUser.btn_NUSubmit_Click(System.Object,System.EventArgs)">
+            <summary>
+            connecting to database
+            </summary>
+        </member>
+        <member name="F:BugTracker.NewUser.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.NewUser.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.NewUser.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BugTracker.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:BugTracker.ProgrammerPanel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.ProgrammerPanel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.ProgrammerPanel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BugTracker.RequestList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.RequestList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.RequestList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BugTracker.TrackerPanel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.TrackerPanel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.TrackerPanel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BugTracker.UserDetailEdit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.UserDetailEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.UserDetailEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BugTracker.UserDetailView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTracker.UserDetailView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTracker.UserDetailView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BugTracker.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BugTracker.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BugTracker.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
